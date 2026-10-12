@@ -4,6 +4,43 @@
 
 ---
 
+## 📁 Структура проекта (Project Structure)
+
+```text
+Java-OOP/
+├── .mvn/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com.example/
+│   │   │       ├── ClassAndObject/    # 1. Классы и Объекты (Phone, Student, Book, Club)
+│   │   │       │   ├── README.md
+│   │   │       │   └── ...
+│   │   │       ├── Encapsulation/     # 2. Инкапсуляция (Dorm, Student, Phone)
+│   │   │       │   ├── README.md
+│   │   │       │   └── ...
+│   │   │       ├── inheritance/       # 3. Наследование (CarExample, UserExample)
+│   │   │       │   ├── README.md
+│   │   │       │   └── ...
+│   │   │       ├── abstractClasses/   # 4. Абстрактные классы (FoodExample, UserAbstractExample)
+│   │   │       │   ├── README.md
+│   │   │       │   └── ...
+│   │   │       ├── Interfaces/        # 5. Интерфейсы (ex1, ex2, ex3)
+│   │   │       │   ├── README.md
+│   │   │       │   └── ...
+│   │   │       └── tryCatch/          # 6. Обработка исключений (ex1: Book, Library)
+│   │   │           ├── README.md
+│   │   │           └── ...
+│   │   └── resources/
+│   └── test/
+├── .gitignore
+├── mvnw
+├── mvnw.cmd
+└── pom.xml                            # Конфигурационный файл Maven
+```
+
+---
+
 ## 🗺️ Карта тем (Навигация по репозиторию)
 
 Каждая папка представляет собой отдельный модуль, изучающий конкретный принцип ООП, и содержит свой собственный локальный `README.md` файл с разбором задач и теорией.
@@ -15,6 +52,7 @@
 * 📂 [**Наследование (inheritance)**](./src/main/java/com/example/inheritance) — Повторное использование кода: связь классов через ключевое слово `extends`, работа с модификатором `protected` и переопределение методов (`@Override`).
 * 📂 [**Абстрактные классы (abstractClasses)**](./src/main/java/com/example/abstractClasses) — Создание шаблонов: проектирование абстрактной логики с помощью модификатора `abstract` и обязательное переопределение бесформенных методов подклассами.
 * 📂 [**Интерфейсы (Interfaces)**](./src/main/java/com/example/Interfaces) — Контракты поведения: полное разделение архитектуры от реализации с помощью `interface` и `implements`, работа со сложными структурами данных (Bean и Repository паттерны).
+* 📂 [**Обработка исключений (tryCatch)**](./src/main/java/com/example/tryCatch) — Безопасность кода: перехват ошибок времени выполнения с помощью конструкции `try-catch`, обработка `NullPointerException` и контроль переполнения массивов данных.
 
 ---
 
