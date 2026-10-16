@@ -28,12 +28,12 @@ Java-OOP/
 │   │   │       ├── Interfaces/        # 5. Интерфейсы (ex1, ex2, ex3)
 │   │   │       │   ├── README.md
 │   │   │       │   └── ...
-│   │   │       └── tryCatch/          # 6. Обработка исключений (ex1: Book, Library)
+│   │   │       ├── tryCatch/          # 6. Обработка исключений (ex1: Book, Library)
 │   │   │           ├── README.md
 │   │   │           └── ...
-│   │   │       ├── arrayList/         # 7. Динамические массивы (Group, Student)
-│   │   │       │   ├── README.md
-│   │   │       │   └── ...
+│   │   │       └── arrayList/         # 7. Динамические массивы (Group, Student)
+│   │   │           ├── README.md
+│   │   │           └── ...
 │   │   └── resources/
 │   └── test/
 ├── .gitignore
@@ -61,9 +61,18 @@ Java-OOP/
 
 ## 🛠️ Как запустить примеры локально
 
+### Требования
+
+* **JDK 25** — в `pom.xml` указаны `maven.compiler.source` и `maven.compiler.target` со значением `25`.
+* **Git** — для клонирования репозитория.
+* **IntelliJ IDEA** или другая IDE с поддержкой Java и Maven. В настройках проекта и Maven выбери JDK 25.
+
+### Запуск
+
 1. **Клонируй этот репозиторий:**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/devtilek/Java-OOP.git
+   cd Java-OOP
    ```
 2. **Открой проект** в IntelliJ IDEA (или любой другой IDE) как **Maven-проект** (выбери корневой файл `pom.xml`, если среда разработки попросит подтверждение).
 3. Переходи в интересующий тебя пакет внутри папки `src/main/java/com/example/`.
